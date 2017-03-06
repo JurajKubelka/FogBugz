@@ -1,6 +1,9 @@
 accessing
 login: loginString password: passwordString
 	"Set a login and password."
-	GCFogBugzLoginCommand 
+	queue addCommand: (GCFogBugzLoginCommand new
+		announcer: self announcer;
+		tracker: tracker;
 		login: loginString;
-		password: passwordString.
+		password: passwordString;
+		yourself)

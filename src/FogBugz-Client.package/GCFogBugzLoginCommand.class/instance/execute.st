@@ -1,3 +1,3 @@
 execute
 execute
-	self login
+	self loginUsingTokenOrUser

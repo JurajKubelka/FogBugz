@@ -1,3 +1,3 @@
 accessing
 credentialsPassword
-	^ self class credentialsPassword
+	^ self password ifNil: [ self class credentialsPassword ]
