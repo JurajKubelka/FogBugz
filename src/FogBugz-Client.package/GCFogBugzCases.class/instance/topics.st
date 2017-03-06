@@ -1,0 +1,3 @@
+private
+topics
+	^ collection copy

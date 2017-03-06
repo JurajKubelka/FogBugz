@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "JurajKubelka 1/9/2017 21:00",
+	"super" : "Object",
+	"category" : "FogBugz-Client-Model",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tracker",
+		"cases",
+		"queue",
+		"hooks"
+	],
+	"name" : "GCFogBugz",
+	"type" : "normal"
+}

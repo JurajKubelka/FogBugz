@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cases",
+		"case1a",
+		"case1b",
+		"case1c",
+		"case2"
+	],
+	"name" : "GCFogBugzCasesTest",
+	"type" : "normal"
+}

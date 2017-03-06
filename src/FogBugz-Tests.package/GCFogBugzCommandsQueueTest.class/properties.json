@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queue",
+		"command",
+		"activations"
+	],
+	"name" : "GCFogBugzCommandsQueueTest",
+	"type" : "normal"
+}

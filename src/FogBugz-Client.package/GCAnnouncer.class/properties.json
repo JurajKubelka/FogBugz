@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "GCSubscriptionTrait classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"announcer"
+	],
+	"name" : "GCAnnouncer",
+	"commentStamp" : "JurajKubelka 1/10/2017 12:08",
+	"super" : "Object",
+	"traitcomposition" : "GCSubscriptionTrait",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "FogBugz-Client-Model"
+}

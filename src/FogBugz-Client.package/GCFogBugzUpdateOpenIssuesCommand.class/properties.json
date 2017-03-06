@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 1/9/2017 21:15",
+	"super" : "GCFogBugzCommand",
+	"category" : "FogBugz-Client-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cases"
+	],
+	"name" : "GCFogBugzUpdateOpenIssuesCommand",
+	"type" : "normal"
+}
