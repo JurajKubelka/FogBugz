@@ -1,8 +1,7 @@
 gt-inspector-extension
 gtInspectorInfoIn: composite
-	<gtInspectorPresentationOrder: 1>
-	^ info
+	<gtInspectorPresentationOrder: -2>
+	^ case 
 		ifNotNil: [ :aCase |
-			(aCase gtInspectorItemsIn: composite)
-				title: 'Info' ]
-		ifNil: [ composite ] 
+			(aCase gtInspectorInfoIn: composite) ]
+		ifNil: [ composite ]
