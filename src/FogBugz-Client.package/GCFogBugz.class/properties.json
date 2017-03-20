@@ -10,8 +10,7 @@
 	"instvars" : [
 		"tracker",
 		"cases",
-		"queue",
-		"hooks"
+		"queue"
 	],
 	"name" : "GCFogBugz",
 	"type" : "normal"
