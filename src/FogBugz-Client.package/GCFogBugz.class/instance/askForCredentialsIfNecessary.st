@@ -1,3 +1,0 @@
-public
-askForCredentialsIfNecessary
-	GCFogBugzSettings uniqueInstance askForCredentialsIfNecessary

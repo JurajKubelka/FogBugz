@@ -1,0 +1,3 @@
+accessing
+credentialsPassword
+	^ FogBugzLoginCommand credentialsPassword

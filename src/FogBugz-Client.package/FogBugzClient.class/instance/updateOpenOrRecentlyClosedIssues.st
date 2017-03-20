@@ -1,0 +1,3 @@
+public
+updateOpenOrRecentlyClosedIssues
+	self updateCases: FogBugzQueryCommand new beOpenAndRecentlyEdited; yourself

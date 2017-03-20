@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 1/10/2017 12:16",
+	"super" : "Object",
+	"category" : "FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "FogBugzMockCommand",
+	"type" : "normal"
+}

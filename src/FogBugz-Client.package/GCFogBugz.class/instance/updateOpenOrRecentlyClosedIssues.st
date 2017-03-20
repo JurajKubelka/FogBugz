@@ -1,3 +1,0 @@
-public
-updateOpenOrRecentlyClosedIssues
-	self updateCases: GCFogBugzQueryCommand new beOpenAndRecentlyEdited; yourself

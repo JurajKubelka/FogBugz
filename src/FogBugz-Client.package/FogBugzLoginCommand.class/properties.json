@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JurajKubelka 1/9/2017 21:12",
+	"super" : "FogBugzCommand",
+	"category" : "FogBugz-Client-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"login",
+		"password"
+	],
+	"name" : "FogBugzLoginCommand",
+	"type" : "normal"
+}

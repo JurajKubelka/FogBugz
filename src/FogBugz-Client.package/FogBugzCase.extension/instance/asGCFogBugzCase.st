@@ -1,3 +1,3 @@
 *FogBugz-Client
 asGCFogBugzCase
-	^ GCFogBugzCase new case: self; yourself
+	^ FogBugzAnnounceableCase new case: self; yourself

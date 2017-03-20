@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 1/9/2017 21:30",
+	"super" : "FogBugzNetworkAnnouncement",
+	"category" : "FogBugz-Client-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exception"
+	],
+	"name" : "FogBugzNetworkErrorAnnouncement",
+	"type" : "normal"
+}
