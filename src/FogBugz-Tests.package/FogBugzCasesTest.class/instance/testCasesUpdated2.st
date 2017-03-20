@@ -8,5 +8,5 @@ testCasesUpdated2
 	self testUpdateCases2.
 	self assert: result size equals: 1.
 	self assert: result first class equals: FogBugzCasesUpdatedAnnouncement.
-	self assert: result first updatedTopics size equals: 1.
-	self assert: result first updatedTopics first == cases topics first.
+	self assert: result first updatedCases size equals: 1.
+	self assert: result first updatedCases first == cases cases first.

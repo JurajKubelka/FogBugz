@@ -1,3 +1,3 @@
 testing
-hasUpdatedTopics
+hasUpdatedCases
 	^ updatedTopics notNil and: [ updatedTopics notEmpty ]

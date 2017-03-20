@@ -3,14 +3,15 @@ updateCases: aCollectionOfFogBugzCase
 	| announcement |
 	announcement := FogBugzCasesUpdatedAnnouncement new.
 	mutex critical: [ 
-		aCollectionOfFogBugzCase do: [ :eachFogBugzCase |
+		aCollectionOfFogBugzCase do: [ :incomingCase |
 			collection 
-				detect: [ :eachTopic | eachTopic id = eachFogBugzCase id ]
-				ifFound: [ :aTopic | 
-					(aTopic lastModification isNil or: [ 
-						aTopic lastModification < eachFogBugzCase lastModification ]) ifTrue: [ 
-							aTopic case: eachFogBugzCase.
-							announcement updatedTopic: aTopic ] ]
-				ifNone: [ announcement newTopic: (self addTopic: eachFogBugzCase asGCFogBugzCase) ] 
+				detect: [ :existingCase | existingCase id = incomingCase id ]
+				ifFound: [ :existingCase | 
+					(existingCase lastModification isNil or: [ 
+						existingCase lastModification < incomingCase lastModification ]) ifTrue: [ 
+							self removeCase: existingCase.
+							self addCase: incomingCase.
+							announcement updatedCase: incomingCase ] ]
+				ifNone: [ announcement newCase: (self addCase: incomingCase) ] 
 		] ].
-	announcement hasTopics ifTrue: [ self announce: announcement ].
+	announcement hasCases ifTrue: [ self announce: announcement ].

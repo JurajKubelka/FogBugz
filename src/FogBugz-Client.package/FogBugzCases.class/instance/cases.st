@@ -1,3 +1,3 @@
 private
-topics
+cases
 	^ collection copy
