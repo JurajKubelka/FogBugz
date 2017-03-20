@@ -3,7 +3,7 @@ testCasesUpdated3
 	"update a case"
 	| result |
 	result := OrderedCollection new.
-	cases subscribe: GCFogBugzCasesUpdated do: [ :ann | result addLast: ann ].
+	cases announcer subscribe: GCFogBugzCasesUpdated do: [ :ann | result addLast: ann ].
 	self testUpdateCases3.
 	self assert: result size equals: 1.
 	self assert: result first class equals: GCFogBugzCasesUpdated.

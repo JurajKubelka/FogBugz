@@ -1,11 +1,12 @@
 {
 	"commentStamp" : "JurajKubelka 1/9/2017 18:17",
-	"super" : "GCAnnouncer",
+	"super" : "Object",
 	"category" : "FogBugz-Client-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"announcer",
 		"collection",
 		"mutex"
 	],
