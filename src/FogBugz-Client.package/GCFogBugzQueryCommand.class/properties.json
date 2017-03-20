@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 3/20/2017 11:14",
 	"super" : "GCFogBugzCommand",
 	"category" : "FogBugz-Client-Network",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cases"
+		"cases",
+		"query"
 	],
 	"name" : "GCFogBugzQueryCommand",
 	"type" : "normal"

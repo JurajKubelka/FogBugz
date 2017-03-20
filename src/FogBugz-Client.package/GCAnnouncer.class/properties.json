@@ -11,5 +11,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "FogBugz-Client-Model"
+	"category" : "FogBugz-Client-Core"
 }

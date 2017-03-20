@@ -1,3 +1,3 @@
-actions
+public
 updateOpenOrRecentlyClosedIssues
-	self updateCases: GCFogBugzUpdateOpenOrRecentlyEditedIssuesCommand new
+	self updateCases: GCFogBugzQueryCommand new beOpenAndRecentlyEdited; yourself

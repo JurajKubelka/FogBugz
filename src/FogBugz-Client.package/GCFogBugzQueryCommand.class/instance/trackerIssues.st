@@ -1,3 +1,3 @@
 private
 trackerIssues
-	^ self subclassResponsibility
+	^ self getIssuesForQuery: self query

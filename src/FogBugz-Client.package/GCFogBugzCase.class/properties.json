@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JurajKubelka 1/10/2017 11:20",
 	"super" : "GCAnnouncer",
-	"category" : "FogBugz-Client-Model",
+	"category" : "FogBugz-Client-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JurajKubelka 1/9/2017 21:00",
 	"super" : "Object",
-	"category" : "FogBugz-Client-Model",
+	"category" : "FogBugz-Client-Core",
 	"classinstvars" : [
 		"uniqueInstance"
 	],

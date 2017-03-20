@@ -1,3 +1,3 @@
-actions
+public
 update
 	self updateOpenOrRecentlyClosedIssues
