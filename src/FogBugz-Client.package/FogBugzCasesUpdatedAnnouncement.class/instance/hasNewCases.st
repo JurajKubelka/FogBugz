@@ -1,3 +1,3 @@
 testing
 hasNewCases
-	^ newTopics notNil and: [ newTopics notEmpty ]
+	^ newCases notNil and: [ newCases notEmpty ]

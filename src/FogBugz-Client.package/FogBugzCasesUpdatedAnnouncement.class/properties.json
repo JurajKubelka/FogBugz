@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"updatedTopics",
-		"newTopics"
+		"updatedCases",
+		"newCases"
 	],
 	"name" : "FogBugzCasesUpdatedAnnouncement",
 	"type" : "normal"

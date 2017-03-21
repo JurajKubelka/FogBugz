@@ -1,3 +1,3 @@
 testing
 hasUpdatedCases
-	^ updatedTopics notNil and: [ updatedTopics notEmpty ]
+	^ updatedCases notNil and: [ updatedCases notEmpty ]

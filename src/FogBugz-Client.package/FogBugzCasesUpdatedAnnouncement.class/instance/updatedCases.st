@@ -1,3 +1,3 @@
 accessing
 updatedCases
-	^ updatedTopics ifNil: [ updatedTopics := OrderedCollection new ]
+	^ updatedCases ifNil: [ updatedCases := OrderedCollection new ]
