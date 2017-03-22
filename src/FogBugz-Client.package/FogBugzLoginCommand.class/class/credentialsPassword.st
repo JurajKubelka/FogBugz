@@ -1,3 +1,0 @@
-accessing
-credentialsPassword
-	^ FogBugzSettings uniqueInstance password

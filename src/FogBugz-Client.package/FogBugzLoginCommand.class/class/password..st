@@ -1,3 +1,0 @@
-accessing
-password: passwordString
-	FogBugzSettings uniqueInstance password: passwordString
