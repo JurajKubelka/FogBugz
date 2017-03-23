@@ -1,4 +1,4 @@
 announcing
 announceNotLoggedIn
 	self announcer ifNotNil: [ :anAnnouncer |
-		anAnnouncer announce: FogBugzNotLoggedAnnouncement logCr ]
+		anAnnouncer announce: FogBugzNotLoggedAnnouncement ]

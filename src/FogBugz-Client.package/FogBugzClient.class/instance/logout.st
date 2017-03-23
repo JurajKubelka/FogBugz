@@ -1,6 +1,6 @@
 public
-login
-	queue addCommand: (FogBugzLoginCommand new
+logout
+	queue addCommand: (FogBugzLogoutCommand new
 		announcer: self announcer;
 		tracker: tracker;
 		yourself)

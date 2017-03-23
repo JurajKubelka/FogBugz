@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 3/23/2017 11:00",
+	"super" : "FogBugzCommand",
+	"category" : "FogBugz-Client-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FogBugzLogoutCommand",
+	"type" : "normal"
+}
