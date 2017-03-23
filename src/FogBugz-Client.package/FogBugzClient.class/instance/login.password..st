@@ -1,4 +1,4 @@
-accessing
+public
 login: loginString password: passwordString
 	"Set a login and password."
 	queue addCommand: (FogBugzLoginCommand new

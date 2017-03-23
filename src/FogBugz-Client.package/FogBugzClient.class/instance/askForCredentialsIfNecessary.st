@@ -1,3 +1,0 @@
-public
-askForCredentialsIfNecessary
-	FogBugzSettings uniqueInstance askForCredentialsIfNecessary

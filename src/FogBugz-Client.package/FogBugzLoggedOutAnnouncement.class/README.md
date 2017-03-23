@@ -1,0 +1,1 @@
+I inform about a successful logout from a FogBugz server.
