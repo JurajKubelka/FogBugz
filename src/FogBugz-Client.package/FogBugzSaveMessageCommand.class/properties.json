@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JurajKubelka 4/18/2017 15:37",
+	"super" : "FogBugzCommand",
+	"category" : "FogBugz-Client-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"case",
+		"message"
+	],
+	"name" : "FogBugzSaveMessageCommand",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FogBugzCommandTest",
+	"category" : "FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FogBugzSaveMessageCommandTest",
+	"type" : "normal"
+}
