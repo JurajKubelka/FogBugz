@@ -4,7 +4,8 @@ I collaborate with FogBugzTracker that edit cases.
 
 Public API and Key Messages
 
-- query: set query string
+- case: set FogBugz object
+- message: set event message that you want to save
 
 [[[
 FogBugzSaveMessageCommand new
@@ -18,5 +19,5 @@ FogBugzSaveMessageCommand new
 Internal Representation and Key Implementation Points.
 
     Instance Variables
-	cases:		<GCFogBugzCases>
-	query:		<String>
+	case		<FogBugzCase>
+	message		<String>
