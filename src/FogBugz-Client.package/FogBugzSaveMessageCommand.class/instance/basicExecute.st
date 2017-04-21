@@ -1,3 +1,5 @@
 private
 basicExecute
-	case saveMessage: self message
+	self isRichMessage 
+		ifFalse: [ case saveMessage: self message ]
+		ifTrue: [ case saveRichMessage: self message ]

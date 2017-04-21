@@ -1,0 +1,3 @@
+defaults
+message
+	^ 'message one'
