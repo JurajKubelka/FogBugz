@@ -2,6 +2,7 @@ execute
 execute
 	self isLoggedIn 
 		ifTrue: [ [ self basicExecute ]
-			on: NetworkError, PrimitiveFailed, NameLookupFailure
+			"TODO: FogBugzTracker raise an error, it should be improved."
+			on: Error, NetworkError, PrimitiveFailed, NameLookupFailure
 			do: [ :ex | self announceNetworkError: ex ] ]
 		ifFalse: [ self announceNotLoggedIn ].
